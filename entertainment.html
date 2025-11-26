@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment</title>
+    <link rel="stylesheet" href="ent.css">
+</head>
+<body>
+    <header>
+        <h1>Nigerian Entertainment Styles</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="entertainment-section">
+            <h2>Select an Ethnic Group</h2>
+            <select id="ethnic-group" onchange="showEntertainmentDetails()">
+                <option value="" disabled selected>Select a group</option>
+                <option value="hausa">Hausa</option>
+                <option value="igbo">Igbo</option>
+                <option value="yoruba">Yoruba</option>
+            </select>
+
+            <div id="entertainment-details" class="hidden">
+                <h3 id="group-title"></h3>
+                <p id="group-details"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cultural Heritage Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="C:\Users\hp user\Documents\Preservelocal\entertainment.js"></script>
+</body>
+</html>
